@@ -84,9 +84,9 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="-200dp"
+            android:layout_marginLeft="-140dp"
             android:layout_marginTop="40dp"
-            android:src="@drawable/photo_2020-03-30_21-21-09" />
+            android:src="@drawable/fly" />
 
 
     </LinearLayout>
@@ -135,6 +135,7 @@
             android:text="SEAT"
             android:textColor="@color/colorGrey"
             android:textSize="20dp" />
+
         <TextView
             android:id="@+id/va301"
             android:layout_width="wrap_content"
@@ -145,6 +146,7 @@
             android:textColor="@color/colorBlack"
             android:textSize="30dp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/a21"
             android:layout_width="wrap_content"
@@ -155,6 +157,7 @@
             android:textColor="@color/colorBlack"
             android:textSize="30dp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/liniya2"
             android:layout_width="wrap_content"
@@ -169,9 +172,11 @@
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="140dp">
+
         <TextView
             android:id="@+id/departs"
             android:layout_width="wrap_content"
@@ -181,6 +186,7 @@
             android:text="DEPARTS"
             android:textColor="@color/colorGrey"
             android:textSize="20dp" />
+
         <TextView
             android:id="@+id/arrives"
             android:layout_width="wrap_content"
@@ -190,6 +196,7 @@
             android:text="ARRIVES"
             android:textColor="@color/colorGrey"
             android:textSize="20dp" />
+
         <TextView
             android:id="@+id/time"
             android:layout_width="wrap_content"
@@ -200,6 +207,7 @@
             android:textColor="@color/colorBlack"
             android:textSize="30dp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/time2"
             android:layout_width="wrap_content"
@@ -210,6 +218,7 @@
             android:textColor="@color/colorBlack"
             android:textSize="30dp"
             android:textStyle="bold" />
+
         <TextView
             android:id="@+id/liniya3"
             android:layout_width="wrap_content"
@@ -221,6 +230,18 @@
             android:text="_________________________________________"
             android:textColor="@color/colorGrey"
             android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/shtrih" />
+
 
     </LinearLayout>
 </LinearLayout>
