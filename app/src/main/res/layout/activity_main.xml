@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorGrey"
+        android:text="      22nd SEPTEMBER 2016"
+
+        android:textColor="@color/colorWhite"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/LHR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="40dp"
+            android:text="L H R"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/JFK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="40dp"
+            android:text="J F K"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/london"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="60dp"
+
+
+            android:text="LONDON"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/newyork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="60dp"
+
+
+            android:text="NEW YORK"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/liniya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-280dp"
+            android:layout_marginTop="110dp"
+
+
+            android:text="______________________"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="-200dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/photo_2020-03-30_21-21-09" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="30dp"
+            android:text="NAME"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/sydykov_erzhan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-150dp"
+            android:layout_marginTop="70dp"
+            android:text="SYDYKOV ERZHAN"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/flight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-230dp"
+            android:layout_marginTop="140dp"
+            android:text="FLIGHT"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/seat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="140dp"
+            android:text="SEAT"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/va301"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-220dp"
+            android:layout_marginTop="190dp"
+            android:text="VA301"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/a21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="190dp"
+            android:text="21A"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/liniya2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-210dp"
+            android:layout_marginTop="240dp"
+
+
+            android:text="______________________"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+        <TextView
+            android:id="@+id/departs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="DEPARTS"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/arrives"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:text="ARRIVES"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-255dp"
+            android:layout_marginTop="60dp"
+            android:text="15:40"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="60dp"
+            android:text="19:01"
+            android:textColor="@color/colorBlack"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/liniya3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-335dp"
+            android:layout_marginTop="100dp"
+
+
+            android:text="_________________________________________"
+            android:textColor="@color/colorGrey"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>
